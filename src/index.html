@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Whatsapp Scheduler</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="qrcodediv">
+      <h2>Scan QR Code from Whatsapp</h2>
+    <canvas id="qrcode"></canvas>
+    </div>
+    <div class="main">
+      <div class="table2">
+          <div class="table" id="table2">
+              <table class="styled-table" id="table">
+                  <thead>
+                  <tr>
+                      <th style="width: 80%">Schedules List</th>
+                      <th style="width: 20%"></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+              </table>
+          </div>
+  </div>
+    <form id="form">
+    <div class="body">
+      <input type="text" class="name" id="name" name="name" placeholder="Name of Schedule" required/>
+      <div class="fields">
+        <input type="datetime-local" name="datetime" id="datetime" class="datetime">
+        <input type="time" class="time" id="time" name="time"/>
+      </div>
+      <input name="file" class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 file" id="file" type="file"
+      accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel, images/*, application/pdf, application/zip, application/x-zip-compressed, multipart/x-zip, application/txt, application/doc, application/docx, application/xls, application/xlsx, application/ppt, application/pptx, application/pps, application/pps"/>
+      <label>OR</label>
+      <textarea
+        class="message1"
+        id="message"
+        placeholder="Type a message ..."
+        name="message"
+      ></textarea>
+      <div class="end">
+      <input type="file" name="no" id="no" class="block text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 no" accept="application/txt, .txt" required/>
+      <button class="send" id="send">Schedule</button>
+    </div>
+    </div>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
