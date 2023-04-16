@@ -1,3 +1,21 @@
-2023/03/04-19:50:36.219 3440 Reusing MANIFEST C:\HoperX\Whatsapp Schedular\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/04-19:50:36.222 3440 Recovering log #805
-2023/03/04-19:50:36.233 3440 Reusing old log C:\HoperX\Whatsapp Schedular\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000805.log 
+2023/03/18-13:09:39.712 3fc4 Reusing MANIFEST C:\HoperX\electron-whatsapp\Whatsapp Schedular\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/18-13:09:39.713 3fc4 Recovering log #1237
+2023/03/18-13:09:40.010 3fc4 Reusing old log C:\HoperX\electron-whatsapp\Whatsapp Schedular\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001237.log 
+2023/03/18-13:09:54.776 46d8 Level-0 table #1246: started
+2023/03/18-13:09:54.853 46d8 Level-0 table #1246: 1016049 bytes OK
+2023/03/18-13:09:54.856 46d8 Delete type=0 #1237
+2023/03/18-13:09:54.862 46d8 Compacting 1@0 + 2@1 files
+2023/03/18-13:09:55.013 46d8 Generated table #1247@0: 50106 keys, 2208323 bytes
+2023/03/18-13:09:55.066 46d8 Generated table #1248@0: 39428 keys, 814180 bytes
+2023/03/18-13:09:55.066 46d8 Compacted 1@0 + 2@1 files => 3022503 bytes
+2023/03/18-13:09:55.067 46d8 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/03/18-13:09:55.067 46d8 Delete type=2 #1240
+2023/03/18-13:09:55.067 46d8 Delete type=2 #1241
+2023/03/18-13:09:55.067 46d8 Delete type=2 #1246
+2023/03/18-13:09:55.232 5370 Compacting 1@1 + 1@2 files
+2023/03/18-13:09:55.351 5370 Generated table #1249@1: 30216 keys, 2188725 bytes
+2023/03/18-13:09:55.441 5370 Generated table #1250@1: 24029 keys, 1145281 bytes
+2023/03/18-13:09:55.441 5370 Compacted 1@1 + 1@2 files => 3334006 bytes
+2023/03/18-13:09:55.442 5370 compacted to: files[ 0 1 2 0 0 0 0 ]
+2023/03/18-13:09:55.443 5370 Delete type=2 #1243
+2023/03/18-13:09:55.444 5370 Delete type=2 #1247

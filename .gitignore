@@ -89,3 +89,6 @@ typings/
 out/
 
 Whatsapp Schedular/vercel.json
+Whatsapp Schedular/whatsapp-schedule-firebase-adminsdk-b3p3o-82c1a647a6.json
+src/url.js
+src/database.js

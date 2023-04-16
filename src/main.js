@@ -1,15 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
 import {ref, getDatabase, set, get,onValue} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
 const server = require('./url')
-const firebaseConfig = {
-    apiKey: "AIzaSyBBzCmitPOU-eA7CfwaYH2Oh5yXpmqX8WA",
-    authDomain: "whatsapp-schedule.firebaseapp.com",
-    projectId: "whatsapp-schedule",
-    storageBucket: "whatsapp-schedule.appspot.com",
-    messagingSenderId: "1016677791744",
-    appId: "1:1016677791744:web:b56a7af0da897b2c5280e5",
-    measurementId: "G-VSYBTX5YZS"
-  };
+const database = require('./database')
+const firebaseConfig = database
 
   const app = initializeApp(firebaseConfig);
   const db = getDatabase(app);
